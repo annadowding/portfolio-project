@@ -18,10 +18,6 @@ h6 {
   padding: 189px 30px 189px 30px;
 }
 
-.col {
-  
-}
-
 .hero p {
   font-family: "Poppins", sans-serif;
   color: var(--primary-color);
@@ -57,8 +53,11 @@ margin-top: 100px;
 }
 
 
-.top-text {
-  margin: 20px 0 30px 0;
+p.subheading {
+  margin: 50px 0 30px 0;
+  text-align: center;
+  font-size: 18px;
+
 }
 
 
@@ -116,5 +115,34 @@ button.btn {
     .container h2 {
       font-size: 64px;
     }
+}
+
+@media (max-width: 414px) {
+  .hero{
+    padding: 60px;
+  }
+.hero h1 {
+  font-size: 43px;
+}
+.hero p {
+  font-size: 20px;
+  padding-top: 35px; 
+}
+.hero a{
+  font-size: 20px;
+}
+.container h2 {
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 0;
+}
+.subheading {
+  margin: 30px 0 0px 0;
+  padding: 0;
+}
+.
 }
 
