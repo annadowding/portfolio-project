@@ -1,5 +1,6 @@
 :root {
   --primary-color: #272142;
+  --theme-font: "Playfair Display", serif;
 }
 
 h1,
@@ -8,7 +9,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--theme-font);
 }
 
 .hero {
@@ -17,11 +18,11 @@ h6 {
   padding: 189px 30px 189px 30px;
 }
 
-.emoji {
-  font-size: 25px;
+.col {
+  
 }
 
-p {
+.hero p {
   font-family: "Poppins", sans-serif;
   color: var(--primary-color);
   margin: 0;
@@ -29,16 +30,41 @@ p {
   font-size: 36px;
 }
 
-h1 {
+.hero h1 {
   font-size: 96px;
   margin-bottom: 30px;
 }
 
-h2 {
+.hero h2 {
   font-family: "Poppins", sans-serif;
   color: var(--primary-color);
-  font-size: 24px;
-  margin-bottom: 45px;
+}
+
+.row h2 {
+margin-top: 100px;
+}
+
+.container h2 {
+  font-family: var(--theme-font);
+  font-size: 49px;
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+
+.top-text {
+  margin: 20px 0 30px 0;
+}
+
+
+img {
+  margin: 60px 0 0 0;
+  /* width: 450px; */
 }
 
 a {
@@ -50,7 +76,45 @@ a {
   border-radius: 4px;
   padding: 12px 60px 12px 60px;
 }
+
 a:hover {
   color: var(--primary-color);
   transition: all 100ms ease-in-out;
 }
+
+button.btn {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #6c63ff;
+  background-color: white;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 12px 60px 12px 60px;
+  border-color: #6c63ff!important;
+  border-width: 1.5px;
+  margin-bottom: 50px;
+}
+
+ button.btn:hover {
+  color: var(--primary-color);
+    border-color: #6c63ff;
+    color: var(--primary-color)
+}
+
+@media (max-width: 992px) {
+  .app-content {
+    width: 100%;
+    text-align: center;
+  }
+   
+}
+
+@media (max-width: 992px) {
+   .row h2 {
+      font-size: 20px;
+    }
+    .container h2 {
+      font-size: 64px;
+    }
+}
+
