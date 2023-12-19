@@ -26,7 +26,7 @@ h3 {
 .hero {
   background: #f9f7fe;
   text-align: center;
-  padding: 189px 30px 189px 30px;
+  padding: 110px 30px 110px 30px;
 }
 
 .hero p {
@@ -205,6 +205,11 @@ footer .email-link:hover {
   }
 }
 
+p {
+    font-family: "Poppins", sans-serif;
+
+}
+
 @media (max-width: 992px) {
   .app-content {
     width: 100%;
@@ -232,9 +237,7 @@ footer .email-link:hover {
   .content-text {
     margin-top: 50px;
   }
-  .row h2 { 
-      /* margin-top: 50px; */
-  }
+  
 }
 
 @media (max-width: 768px) {
