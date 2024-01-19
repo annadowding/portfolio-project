@@ -65,6 +65,7 @@ margin-top: 65px;
 .container h2 {
   font-family: var(--headings-font);
   font-size: 49px;
+  color: #6C63FF;
 }
 
 .container p,
@@ -211,7 +212,6 @@ h4 {
 }
 
 .contact-box .button {
-  /* padding:  70px 0 0; */
   margin: 25px 70px 0 0;
 }
 
@@ -250,6 +250,10 @@ footer .social-icon {
   margin: 10px 0;
 }
 
+.dictionary-app {
+  margin-top: 130px;
+}
+
   
 @media (min-width: 992px) {
   .content-text {
@@ -259,25 +263,22 @@ footer .social-icon {
 
 p {
     font-family: "Poppins", sans-serif;
-
 }
 
-@media (min-width: 992px) {
-  .col-lg-6 img {
+.col-lg-6 img {
     margin: 0 0 0 82px;
   }
-}
 
 @media (max-width: 992px) {
   .app-content {
-    width: 100%;
+    width: 50%;
     text-align: center;
   }
   .row h2 {
     font-size: 80px;
   }
   .container h2 {
-    font-size: 64px;
+    font-size: 40px;
   }
   .row {
     margin: 0 40px 40px 40px;
@@ -295,7 +296,6 @@ p {
   .content-text {
     margin-top: 50px;
   }
-  
 }
 
 @media (max-width: 768px) {
@@ -307,14 +307,24 @@ p {
   app-content {
     padding:none;
   }
-  .col-6 img {
-    display:none;
-  }
   .row h2 { 
     margin-top: 0;
   }
+    .img-fluid{
+    margin:0;
+  }
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 38px;
+      }
+    .container h2 {
+      font-size: 32px;
+    }
+    
+  
+}
 
 @media (max-width: 414px) {
   .hero {
@@ -330,11 +340,12 @@ p {
   .hero a {
     font-size: 20px;
   }
-  .container h2 {
-    font-size: 40px;
+  h2 {
+    
     margin: 0;
     padding: 0;
   }
+  
   .container {
     padding: 0;
   }
@@ -345,9 +356,7 @@ p {
  .contact {
   text-align: center;
 }
+
+
 }
-@media (max-width: 576px) {
-  h1 {
-    font-size: 38px;
-      }
-}
+
