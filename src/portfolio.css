@@ -320,8 +320,11 @@ p {
     font-size: 38px;
       }
     .container h2 {
-      font-size: 32px;
+      font-size: 28px;
     }
+    nav li {
+  padding: 5px;
+}
     
   
 }
@@ -356,6 +359,7 @@ p {
  .contact {
   text-align: center;
 }
+
 
 
 }
